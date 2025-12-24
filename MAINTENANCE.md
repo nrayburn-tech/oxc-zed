@@ -7,7 +7,7 @@ To publish a new version of the Oxc extension for Zed, you need to submit a PR t
 ### Steps
 
 1. **Merge the latest release PR** in https://github.com/oxc-project/oxc-zed/pulls
-   - This will automatically update the version in `Cargo.toml`
+   - This will automatically update the version in both `Cargo.toml` and `extension.toml`
 
 2. **Create a PR to the Zed extensions repository**:
    - Fork https://github.com/zed-industries/extensions if you haven't already
